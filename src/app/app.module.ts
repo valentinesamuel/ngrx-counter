@@ -8,6 +8,7 @@ import { CounterButtonsComponent } from './counter/counter-buttons/counter-butto
 import { CounterOutputComponent } from './counter/counter-output/counter-output.component';
 import { CounterComponent } from './counter/counter/counter.component';
 import { CounterReducer } from './counter/state/counter.reducer';
+import { CustomCounterInputComponent } from './counter/custom-counter-input/custom-counter-input.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { CounterReducer } from './counter/state/counter.reducer';
     CounterButtonsComponent,
     CounterOutputComponent,
     CounterComponent,
+    CustomCounterInputComponent,
   ],
   imports: [
     BrowserModule,
