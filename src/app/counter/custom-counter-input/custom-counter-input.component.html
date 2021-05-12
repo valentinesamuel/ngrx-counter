@@ -1,9 +1,14 @@
 <div>
+<div class="mmy-3">{{channelName}}</div>
+
   <input
     type="number"
     placeholder="enter value"
     [(ngModel)]="value"
-
   />
   <button class="btn btn-info" (click)="onAdd()">Add to counter</button>
+</div>
+
+<div>
+  <button (click)="onChangeChannelName()">Change Channel Name</button>
 </div>
