@@ -1,0 +1,15 @@
+.navigation-bar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      ul{
+            margin: 0;
+            display: flex;
+            list-style-type: none;
+            
+            li{
+                  margin-right: 12px;
+
+            }
+      }
+}
