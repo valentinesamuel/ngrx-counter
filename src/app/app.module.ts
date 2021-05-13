@@ -13,6 +13,8 @@ import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { PostsListComponent } from './posts/posts-list/posts-list.component';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { environment } from 'src/environments/environment.prod';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,11 @@ import { PostsListComponent } from './posts/posts-list/posts-list.component';
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    StoreModule.forRoot({ counter: CounterReducer })
+    StoreModule.forRoot({ counter: CounterReducer }),
+    StoreDevtoolsModule.instrument({
+      logOnly: environment.production,
+     
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
