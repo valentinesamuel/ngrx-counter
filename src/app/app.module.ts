@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { CounterButtonsComponent } from './counter/counter-buttons/counter-buttons.component';
 import { CounterOutputComponent } from './counter/counter-output/counter-output.component';
 import { CounterComponent } from './counter/counter/counter.component';
-import { CounterReducer } from './counter/state/counter.reducer';
+
 import { CustomCounterInputComponent } from './counter/custom-counter-input/custom-counter-input.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';

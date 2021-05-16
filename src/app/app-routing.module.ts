@@ -4,7 +4,6 @@ import { CounterComponent } from './counter/counter/counter.component';
 import { HomeComponent } from './home/home.component';
 import { AddpostComponent } from './posts/addpost/addpost.component';
 import { PostsListComponent } from './posts/posts-list/posts-list.component';
-import { HeaderComponent } from './shared/components/header/header.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
