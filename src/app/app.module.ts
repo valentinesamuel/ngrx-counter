@@ -40,7 +40,6 @@ import { EditpostComponent } from './posts/editpost/editpost.component';
     StoreModule.forRoot(appReducer),
     StoreDevtoolsModule.instrument({
       logOnly: environment.production,
-     
     })
   ],
   providers: [],
