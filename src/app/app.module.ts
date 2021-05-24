@@ -4,11 +4,6 @@ import { StoreModule } from '@ngrx/store';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CounterButtonsComponent } from './counter/counter-buttons/counter-buttons.component';
-import { CounterOutputComponent } from './counter/counter-output/counter-output.component';
-import { CounterComponent } from './counter/counter/counter.component';
-
-import { CustomCounterInputComponent } from './counter/custom-counter-input/custom-counter-input.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './shared/components/header/header.component';
@@ -22,10 +17,6 @@ import { EditpostComponent } from './posts/editpost/editpost.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CounterButtonsComponent,
-    CounterOutputComponent,
-    CounterComponent,
-    CustomCounterInputComponent,
     HomeComponent,
     HeaderComponent,
     PostsListComponent,
