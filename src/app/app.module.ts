@@ -10,7 +10,6 @@ import { HeaderComponent } from './shared/components/header/header.component';
 
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from 'src/environments/environment.prod';
-import { appReducer } from './state/app.state';
 
 
 @NgModule({
@@ -25,7 +24,7 @@ import { appReducer } from './state/app.state';
     ReactiveFormsModule,
     FormsModule,
     AppRoutingModule,
-    StoreModule.forRoot(appReducer),
+    StoreModule.forRoot({}),
     StoreDevtoolsModule.instrument({
       logOnly: environment.production,
     })
