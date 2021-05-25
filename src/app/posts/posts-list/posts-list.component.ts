@@ -22,7 +22,7 @@ export class PostsListComponent implements OnInit {
 
   onDeletePost(id: string) {
     if (confirm("Are you sure you want to delete?")) {
-      this, this.store.dispatch(deletePost({ id }))
+      this.store.dispatch(deletePost({ id }))
 
     }
   }
